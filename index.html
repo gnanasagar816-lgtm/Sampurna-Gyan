@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore history, ancient civilizations, mysteries, archaeology, mythology and fascinating theories.">
+    <meta name="keywords" content="history, mysteries, conspiracy theories, archaeology, ancient civilizations, mythology">
+
+    <title>Sampurna Gyana | History, Mysteries & Theories</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            <img src="images/jayanth.jpeg" alt="Website Logo">
+            <span>Sampurna<span>Gyana</span></span>
+        </a>
+
+        <nav id="navMenu">
+            <a href="index.html" class="active">Home</a>
+            <a href="articles.html">Articles</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="icon-btn" id="searchToggle" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="login.html" class="login-btn">
+                <i class="fa-regular fa-user"></i>
+                Login
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="search-panel" id="searchPanel">
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="globalSearch"
+                placeholder="Search history, mysteries, civilizations..."
+            >
+
+            <button id="closeSearch">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="category-badge">
+                FEATURED STORY
+            </span>
+
+            <h1>
+                The Mysteries of Civilizations Lost to Time
+            </h1>
+
+            <p>
+                From forgotten kingdoms to unexplained discoveries,
+                explore the stories that continue to challenge our
+                understanding of the past.
+            </p>
+
+            <div class="hero-meta">
+                <span>
+                    <i class="fa-regular fa-clock"></i>
+                    8 min read
+                </span>
+
+                <span>
+                    <i class="fa-regular fa-calendar"></i>
+                    August 2026
+                </span>
+            </div>
+
+            <a href="article.html" class="primary-btn">
+                Read Featured Story
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section class="section">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="small-title">DISCOVER</span>
+                <h2>Explore Categories</h2>
+            </div>
+
+            <a href="articles.html" class="text-link">
+                View All
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="category-grid">
+
+            <a href="articles.html" class="category-card">
+                <i class="fa-solid fa-landmark"></i>
+                <h3>History</h3>
+                <p>Stories from the past</p>
+            </a>
+
+            <a href="articles.html" class="category-card">
+                <i class="fa-solid fa-pyramid"></i>
+                <h3>Ancient Civilizations</h3>
+                <p>Lost cultures and empires</p>
+            </a>
+
+            <a href="articles.html" class="category-card">
+                <i class="fa-solid fa-question"></i>
+                <h3>Unsolved Mysteries</h3>
+                <p>Questions without answers</p>
+            </a>
+
+            <a href="articles.html" class="category-card">
+                <i class="fa-solid fa-eye"></i>
+                <h3>Theories</h3>
+                <p>Claims and interpretations</p>
+            </a>
+
+            <a href="articles.html" class="category-card">
+                <i class="fa-solid fa-archway"></i>
+                <h3>Archaeology</h3>
+                <p>Discoveries beneath the earth</p>
+            </a>
+
+            <a href="articles.html" class="category-card">
+                <i class="fa-solid fa-star"></i>
+                <h3>Mythology</h3>
+                <p>Legends from around the world</p>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- LATEST ARTICLES -->
+
+    <section class="section dark-section">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="small-title">READ</span>
+                <h2>Latest Articles</h2>
+            </div>
+
+            <a href="articles.html" class="text-link">
+                All Articles
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="article-grid">
+
+            <article class="article-card">
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1599833975787-5f5c1e3b7a3a?auto=format&fit=crop&w=1000&q=80"
+                        alt="Ancient architecture">
+
+                    <span class="article-label verified">
+                        Historical
+                    </span>
+
+                    <button class="bookmark-btn" data-bookmark="article1">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Ancient Civilizations
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            The Forgotten Cities That Once Ruled the Ancient World
+                        </a>
+                    </h3>
+
+                    <p>
+                        Discover the rise and disappearance of remarkable
+                        civilizations that shaped human history.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>
+                            <i class="fa-regular fa-user"></i>
+                            Sampurna Gyana
+                        </span>
+
+                        <span>
+                            6 min read
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="article-card">
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1000&q=80"
+                        alt="Ancient ruins">
+
+                    <span class="article-label theory">
+                        Theory
+                    </span>
+
+                    <button class="bookmark-btn" data-bookmark="article2">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Unsolved Mysteries
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            What Really Happened to the Lost City of Atlantis?
+                        </a>
+                    </h3>
+
+                    <p>
+                        Examine the historical sources, theories and evidence
+                        surrounding one of history's most famous mysteries.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>
+                            <i class="fa-regular fa-user"></i>
+                            Sampurna Gyana
+                        </span>
+
+                        <span>
+                            9 min read
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="article-card">
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1609132718484-cc6003e3e2c7?auto=format&fit=crop&w=1000&q=80"
+                        alt="Ancient temple">
+
+                    <span class="article-label unverified">
+                        Unverified
+                    </span>
+
+                    <button class="bookmark-btn" data-bookmark="article3">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Conspiracy Theories
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            The Secret Symbols Hidden in Ancient Monuments
+                        </a>
+                    </h3>
+
+                    <p>
+                        A look at unusual symbols, their interpretations and
+                        the theories surrounding their origins.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>
+                            <i class="fa-regular fa-user"></i>
+                            Sampurna Gyana
+                        </span>
+
+                        <span>
+                            7 min read
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURE -->
+
+    <section class="section">
+
+        <div class="feature-box">
+
+            <div class="feature-content">
+
+                <span class="small-title">
+                    THE CHRONICLE
+                </span>
+
+                <h2>
+                    History is full of questions.
+                    We explore them.
+                </h2>
+
+                <p>
+                    Sampurna Gyana explores fascinating historical events,
+                    archaeological discoveries, ancient civilizations,
+                    mysteries and theories while separating documented
+                    evidence from speculation.
+                </p>
+
+                <a href="about.html" class="primary-btn">
+                    Discover Sampurna Gyana
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="feature-image"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter">
+
+        <div class="newsletter-content">
+
+            <span class="small-title">
+                STAY CURIOUS
+            </span>
+
+            <h2>
+                Discover something new every week.
+            </h2>
+
+            <p>
+                Subscribe for new stories, mysteries and historical discoveries.
+            </p>
+
+            <form id="newsletterForm">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+            <small>
+                No spam. Unsubscribe anytime.
+            </small>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+           <a href="index.html" class="logo">
+            <img src="images/jayanth.jpeg" alt="Website Logo">
+            <span>Sampurna<span>Gyana</span></span>
+        </a>
+
+            <p>
+                Exploring history, mysteries, discoveries and theories
+                through stories that make you curious.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#" aria-label="Telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="articles.html">Articles</a>
+            <a href="articles.html">History</a>
+            <a href="articles.html">Mysteries</a>
+            <a href="articles.html">Archaeology</a>
+            <a href="articles.html">Theories</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Company</h4>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Disclaimer</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Contact</h4>
+
+            <a href="tel:+910000000000">
+                <i class="fa-solid fa-phone"></i>
+                +91 00000 00000
+            </a>
+
+            <a href="mailto:hello@chroniclex.com">
+                <i class="fa-solid fa-envelope"></i>
+                hello@chroniclex.com
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Sampurna Gyana. All rights reserved.
+        </p>
+
+        <p>
+            Facts, theories & curiosity.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

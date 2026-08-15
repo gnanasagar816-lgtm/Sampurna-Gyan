@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Articles | Sampurna Gyana</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            <img src="images/jayanth.jpeg" alt="Website Logo">
+            <span>Sampurna<span>Gyana</span></span>
+        </a>
+
+        <nav id="navMenu">
+
+            <a href="index.html">Home</a>
+
+            <a href="articles.html" class="active">
+                Articles
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="icon-btn" id="themeToggle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="login.html" class="login-btn">
+                <i class="fa-regular fa-user"></i>
+                Login
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="page-header">
+
+        <span class="small-title">
+            THE CHRONICLE
+        </span>
+
+        <h1>
+            Explore Our Articles
+        </h1>
+
+        <p>
+            Discover stories about history, mysteries, ancient civilizations,
+            archaeology and theories.
+        </p>
+
+    </section>
+
+
+    <section class="section">
+
+        <div class="filter-bar">
+
+            <div class="filter-search">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="articleSearch"
+                    placeholder="Search articles..."
+                >
+
+            </div>
+
+            <select id="categoryFilter">
+
+                <option value="all">
+                    All Categories
+                </option>
+
+                <option value="knowledge">
+                    Knowledge
+                </option>
+
+                <option value="human">
+                    Human Development
+                </option>
+
+                <option value="finance">
+                    Finance
+                </option>
+
+                <option value="world">
+                    World and Starategy
+                </option>
+
+                <option value="current">
+                    Current Affairs
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="article-grid full-grid" id="articleList">
+
+            <article
+                class="article-card searchable"
+                data-category="human"
+                data-title="forgotten cities ancient world"
+            >
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1599833975787-5f5c1e3b7a3a?auto=format&fit=crop&w=1000&q=80"
+                        alt="Ancient city">
+
+                    <span class="article-label verified">
+                        Historical
+                    </span>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Ancient Civilizations
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            The Forgotten Cities That Once Ruled the Ancient World
+                        </a>
+                    </h3>
+
+                    <p>
+                        Explore civilizations that rose to power and eventually
+                        disappeared from history.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>Sampurna Gyana</span>
+
+                        <span>6 min read</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="article-card searchable"
+                data-category="mystery"
+                data-title="lost city atlantis"
+            >
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=1000&q=80"
+                        alt="Ruins">
+
+                    <span class="article-label theory">
+                        Theory
+                    </span>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Unsolved Mysteries
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            What Really Happened to Atlantis?
+                        </a>
+                    </h3>
+
+                    <p>
+                        Examine the historical sources and theories surrounding
+                        the legendary lost civilization.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>Sampurna Gyana</span>
+
+                        <span>9 min read</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="article-card searchable"
+                data-category="archaeology"
+                data-title="archaeological discoveries"
+            >
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=1000&q=80"
+                        alt="Archaeology">
+
+                    <span class="article-label verified">
+                        Historical
+                    </span>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Archaeology
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            Archaeological Discoveries That Changed History
+                        </a>
+                    </h3>
+
+                    <p>
+                        Discover artifacts and archaeological findings that
+                        transformed our understanding of the past.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>Sampurna Gyana</span>
+
+                        <span>8 min read</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="article-card searchable"
+                data-category="theory"
+                data-title="ancient symbols conspiracy"
+            >
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1609132718484-cc6003e3e2c7?auto=format&fit=crop&w=1000&q=80"
+                        alt="Ancient monument">
+
+                    <span class="article-label unverified">
+                        Unverified
+                    </span>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Conspiracy Theories
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            The Strange Symbols Hidden in Ancient Monuments
+                        </a>
+                    </h3>
+
+                    <p>
+                        A look at mysterious symbols and the theories built
+                        around their possible meanings.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>Sampurna Gyana</span>
+
+                        <span>7 min read</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="article-card searchable"
+                data-category="history"
+                data-title="ancient empire history"
+            >
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?auto=format&fit=crop&w=1000&q=80"
+                        alt="Historic building">
+
+                    <span class="article-label verified">
+                        Historical
+                    </span>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        History
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            Empires That Changed the Course of History
+                        </a>
+                    </h3>
+
+                    <p>
+                        How powerful civilizations influenced the world we
+                        live in today.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>Sampurna Gyana</span>
+
+                        <span>10 min read</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article
+                class="article-card searchable"
+                data-category="mystery"
+                data-title="unexplained historical mysteries"
+            >
+
+                <div class="article-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=1000&q=80"
+                        alt="Mysterious landscape">
+
+                    <span class="article-label theory">
+                        Mystery
+                    </span>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="article-content">
+
+                    <span class="article-category">
+                        Unsolved Mysteries
+                    </span>
+
+                    <h3>
+                        <a href="article.html">
+                            7 Historical Mysteries Still Without Answers
+                        </a>
+                    </h3>
+
+                    <p>
+                        Strange events and unexplained discoveries that
+                        continue to fascinate researchers.
+                    </p>
+
+                    <div class="article-info">
+
+                        <span>Sampurna Gyana</span>
+
+                        <span>11 min read</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <div class="no-results" id="noResults">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h3>No articles found</h3>
+            <p>Try another search or category.</p>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+           <a href="index.html" class="logo">
+            <img src="images/jayanth.jpeg" alt="Website Logo">
+            <span>Sampurna<span>Gyana</span></span>
+        </a>
+
+            <p>
+                Exploring history, mysteries, discoveries and theories.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Explore</h4>
+
+            <a href="articles.html">Articles</a>
+            <a href="articles.html">History</a>
+            <a href="articles.html">Mysteries</a>
+            <a href="articles.html">Theories</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Company</h4>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Privacy</a>
+            <a href="#">Disclaimer</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Sampurna Gyana. All rights reserved.</p>
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

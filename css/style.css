@@ -2349,3 +2349,35 @@ nav a.active::after {
         opacity: 1;
     }
 }
+
+.footer-column a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.footer-column a i {
+    width: 20px;
+    font-size: 18px;
+}
+
+.footer-column a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-column a i {
+    display: inline-block;
+    width: 22px;
+    font-size: 18px;
+}
+
+.footer-column a:hover {
+    text-decoration: none;
+}

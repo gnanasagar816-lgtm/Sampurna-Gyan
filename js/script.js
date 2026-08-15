@@ -502,3 +502,4 @@ window.addEventListener("scroll", () => {
         progress + "%";
 
 });
+
